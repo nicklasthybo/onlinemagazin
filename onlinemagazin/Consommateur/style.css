@@ -1,0 +1,348 @@
+/*fjern browseren padding her*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   /*FONT FAMILY & STYLES*/
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    font-variant: all-small-caps;
+    color: #16343e;
+}
+
+p {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 20px;
+    color: #16343e;
+}
+
+a{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+li {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h4, h5{
+    font-size: 30px;
+}
+
+.whitetext{
+    color: #ecebe9;
+}
+
+.bluetext{
+    color: #16343e;
+}
+
+  /*CTA BUTTON*/
+
+button{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #16343e;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    border-radius: 8px;
+}
+button a{
+    color: #ecebe9;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button a:hover{
+    color: #f8e5da;
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 #000000, 0 17px 50px 0 #000000;
+}
+
+  /*HEADER*/
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #a2a392;  
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 3%;
+}
+
+.headerlinks {
+    color: #ecebe9;
+    text-decoration: none;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.headerlinks:hover{
+    text-decoration: underline;
+    color:#f8e5da;
+}
+
+#logo {
+    width: 150px;
+    height: 120px;
+}
+
+/*COVER*/
+#shopcover{
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ),
+    url(img/streetstyle.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 160px;  
+}
+#shopcover p{
+    padding-top: 30px;
+}
+
+/*nyheder*/
+
+#nyheder{
+    padding-left: 120px;
+    padding-right: 120px;
+    
+
+}
+
+.nyheder h1{
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    justify-content: center;
+
+}
+
+
+#fs{
+    display: inline-flexbox; 
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap; 
+  
+     
+}
+.nyheder1{
+    color: #16343e;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+.nyheder1:hover{
+    text-decoration: underline;
+    background-color: #ffffff77;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+
+
+ /*KATEGORIBAR*/
+#kategoribar{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 40px;
+    padding: 25px;
+}
+
+#kategoribar img{
+    max-width: 3%;
+}
+
+.kategorilinks{
+    color: #16343e;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.kategorilinks:hover{
+    text-decoration: underline;
+    background-color: #ffffff77;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/*streetstyles*/
+#underside{
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ),
+    url(img/forside.jpg);
+    
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 160px;  
+    white-space: nowrap;
+    
+}
+#underside p{
+    padding-top: 30px;
+}
+
+.underside1 > div > p{
+    float: right;
+    right: 50%;
+    width: 300px;
+    padding: 10px;
+    padding: 3% 10px 2% 3%;
+}
+
+.underside1 > div > img{
+    padding: 3% 20px 3% 3%;
+    display: inline-flexbox; 
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap;
+}
+
+
+/*streetstyles2*/
+
+#underside2{
+    
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ),
+    url(img/style.jpg);
+    
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 160px;  
+}
+.underside2 > div > p{
+    float: right;
+    right: 10%;
+    width: 50%;
+    padding: 10px;
+}
+
+.underside2 > div > img{
+    padding: 3% 20px 3% 3%;
+    display: inline-flexbox; 
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap;
+}
+
+#kontakter{
+    text-align: center;
+    vertical-align: center;
+}
+
+
+/*køboutfittet*/
+
+#køboutimg{
+    
+    background:
+    linear-gradient(
+        rgba(15, 15, 15, 0.65),
+        rgba(15, 15, 15, 0.65)
+    ),
+    url(img/Asap-Rocky-Outfits.png);
+    
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 160px;  
+}
+
+.købout{
+padding-top: 30px;
+text-align: center;
+justify-content: center;
+}
+
+.købout1 > img{
+    padding: 3% 50px 3% 3%;
+    display: inline-flexbox; 
+    text-align: left;
+    vertical-align: left;
+    white-space: nowrap;
+}
+
+.købout1 > p{
+    float: right;
+    right: 100%;
+    width: 300px;
+    padding: 10px;
+    padding: 3% 10px 2% 3%;
+}
+
+
+ /*FOOTER*/
+
+footer{
+    background-color:#a2a392;
+    color:#ecebe9;
+    padding: top 1px;;
+    padding-bottom: 10px;
+}
+footer h4{
+    color:#ecebe9;
+    margin-bottom: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    gap: 100px;
+    text-align: left;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    line-height: 70px;
+  }
+
+#footerlogo{
+    max-width: 30%;
+    margin-top:10%;
+    margin-left: 500px;
+    align-items: left;
+
+}

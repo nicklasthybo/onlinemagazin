@@ -1,0 +1,324 @@
+/*fjern browseren padding her*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   /*FONT FAMILY & STYLES*/
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    font-variant: all-small-caps;
+    color: #16343e;
+}
+
+p {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 20px;
+    color: #16343e;
+}
+
+a{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+li {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h4, h5{
+    font-size: 30px;
+}
+
+.whitetext{
+    color: #ecebe9;
+}
+
+.bluetext{
+    color: #16343e;
+}
+
+  /*CTA BUTTON*/
+
+button{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #16343e;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    border-radius: 8px;
+}
+button a{
+    color: #ecebe9;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button a:hover{
+    color: #f8e5da;
+    text-decoration: underline;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+  /*HEADER*/
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #a2a392;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 2%;
+}
+
+.headerlinks {
+    color: #ecebe9;
+    text-decoration: none;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.headerlinks:hover{
+    text-decoration: underline;
+    color:#f8e5da;
+}
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+/*FRONTPAGE*/
+ 
+
+#voresrejsesektion {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 400px;
+    padding: 75px 100px;
+    background-color: #ecebe9;
+}
+
+#voresrejsesektion img {
+    max-width: 200%;
+}
+
+#headeroneinsert{
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+#downloadappsektion{
+    background-color: #f8e5da;
+    padding: 75px 100px;
+    display: flex;
+}
+
+.downloadappstore{
+    padding-top:30px;
+    padding-left: 30px;
+    max-width: 41%;
+}
+#downloadappbillede{
+    max-width: 50%;
+    margin-left: 30%;
+
+}
+/*nyheder*/
+
+#rocky1{
+    max-width: 20%;
+    margin-left: 30%;
+}
+   /*TØM KØLESKABET UNDERSIDE*/
+
+#tomkoleskabetcover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background: 
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(img/koleskabscover2.png);/*Fotos af Ella Olsson fra Pexels*/
+
+    padding: 175px 150px;
+}
+
+
+#tomkoleskabetinfo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    gap: 150px;
+    text-align: left;
+    background-color: #ecebe9;
+    padding-top: 100px;
+}
+
+#tomkoleskabetinteraktiv{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    background-color: #ecebe9;
+    gap: 200px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    text-decoration: underline;
+}
+
+#magnifyingglass{
+    max-width: 2%;
+}
+
+#tomkoleskabetopskrift{
+    max-width: 90%;
+}
+
+/*CLICK & COLLECT COVER*/
+#shopcover{
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ),
+    url(img/streetstyle.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 160px;  
+}
+#shopcover p{
+    padding-top: 30px;
+}
+
+ /*CLICK & COLLECT SEKTION VÆLG AFDELING*/
+
+#valgafdeling{
+    background-color: #ecebe9;
+    display: flex;
+    align-items:center;
+}
+
+#valgafdeling img{
+    max-width: 60%;
+    padding-left: 150px;
+}
+
+ /*KATEGORIBAR*/
+#kategoribar{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 40px;
+    padding: 25px;
+}
+
+#kategoribar img{
+    max-width: 3%;
+}
+
+.kategorilinks{
+    color: #16343e;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.kategorilinks:hover{
+    text-decoration: underline;
+    background-color: #16343e77;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+
+ /*CLICK & COLLECT SEKTION MADVARER*/
+
+#madvarer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+#madvarer img{
+    max-width: 25%;
+    
+}
+#pilnedknap{
+    margin-top: 30px;
+    max-width: 2%;
+}
+
+  /*MIN SIDE*/
+
+#ikkekodet{
+    Padding:20%;
+    background-color: #ecebe9;
+}
+
+ /*FOOTER*/
+
+footer{
+    background-color:#a2a392;
+    color:#ecebe9;
+    padding: top 1px;;
+    padding-bottom: 10px;
+}
+footer h4{
+    color:#ecebe9;
+    margin-bottom: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    gap: 100px;
+    text-align: left;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    line-height: 70px;
+  }
+
+#footerlogo{
+    max-width: 30%;
+    margin-top:10%;
+    margin-left: 500px;
+    align-items: left;
+
+}
